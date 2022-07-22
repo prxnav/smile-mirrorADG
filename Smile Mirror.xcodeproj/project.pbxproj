@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1E8EFA28609D1200A2AD4C /* smile_detection.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BF1E8EF928609D1200A2AD4C /* smile_detection.mlpackage */; };
+		BFD236A2285E13B600C19341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236A1285E13B600C19341 /* AppDelegate.swift */; };
+		BFD236A4285E13B600C19341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236A3285E13B600C19341 /* SceneDelegate.swift */; };
+		BFD236A6285E13B600C19341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236A5285E13B600C19341 /* ViewController.swift */; };
+		BFD236A9285E13B600C19341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD236A7285E13B600C19341 /* Main.storyboard */; };
+		BFD236AC285E13B600C19341 /* Smile_Mirror.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFD236AA285E13B600C19341 /* Smile_Mirror.xcdatamodeld */; };
+		BFD236AE285E13B800C19341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD236AD285E13B800C19341 /* Assets.xcassets */; };
+		BFD236B1285E13B800C19341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD236AF285E13B800C19341 /* LaunchScreen.storyboard */; };
+		BFD236BC285E13B900C19341 /* Smile_MirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236BB285E13B900C19341 /* Smile_MirrorTests.swift */; };
+		BFD236C6285E13B900C19341 /* Smile_MirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236C5285E13B900C19341 /* Smile_MirrorUITests.swift */; };
+		BFD236C8285E13B900C19341 /* Smile_MirrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD236C7285E13B900C19341 /* Smile_MirrorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD236B8285E13B900C19341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD23696285E13B600C19341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD2369D285E13B600C19341;
+			remoteInfo = "Smile Mirror";
+		};
+		BFD236C2285E13B900C19341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD23696285E13B600C19341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD2369D285E13B600C19341;
+			remoteInfo = "Smile Mirror";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1E8EF928609D1200A2AD4C /* smile_detection.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = smile_detection.mlpackage; path = ../../smile_detection.mlpackage; sourceTree = "<group>"; };
+		BFD2369E285E13B600C19341 /* Smile Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smile Mirror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD236A1285E13B600C19341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD236A3285E13B600C19341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFD236A5285E13B600C19341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFD236A8285E13B600C19341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD236AB285E13B600C19341 /* Smile_Mirror.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smile_Mirror.xcdatamodel; sourceTree = "<group>"; };
+		BFD236AD285E13B800C19341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD236B0285E13B800C19341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD236B2285E13B800C19341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD236B7285E13B900C19341 /* Smile MirrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile MirrorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD236BB285E13B900C19341 /* Smile_MirrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_MirrorTests.swift; sourceTree = "<group>"; };
+		BFD236C1285E13B900C19341 /* Smile MirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile MirrorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD236C5285E13B900C19341 /* Smile_MirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_MirrorUITests.swift; sourceTree = "<group>"; };
+		BFD236C7285E13B900C19341 /* Smile_MirrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile_MirrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD2369B285E13B600C19341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236B4285E13B900C19341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236BE285E13B900C19341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD23695285E13B600C19341 = {
+			isa = PBXGroup;
+			children = (
+				BFD236A0285E13B600C19341 /* Smile Mirror */,
+				BFD236BA285E13B900C19341 /* Smile MirrorTests */,
+				BFD236C4285E13B900C19341 /* Smile MirrorUITests */,
+				BFD2369F285E13B600C19341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD2369F285E13B600C19341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2369E285E13B600C19341 /* Smile Mirror.app */,
+				BFD236B7285E13B900C19341 /* Smile MirrorTests.xctest */,
+				BFD236C1285E13B900C19341 /* Smile MirrorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD236A0285E13B600C19341 /* Smile Mirror */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E8EF928609D1200A2AD4C /* smile_detection.mlpackage */,
+				BFD236A1285E13B600C19341 /* AppDelegate.swift */,
+				BFD236A3285E13B600C19341 /* SceneDelegate.swift */,
+				BFD236A5285E13B600C19341 /* ViewController.swift */,
+				BFD236A7285E13B600C19341 /* Main.storyboard */,
+				BFD236AD285E13B800C19341 /* Assets.xcassets */,
+				BFD236AF285E13B800C19341 /* LaunchScreen.storyboard */,
+				BFD236B2285E13B800C19341 /* Info.plist */,
+				BFD236AA285E13B600C19341 /* Smile_Mirror.xcdatamodeld */,
+			);
+			path = "Smile Mirror";
+			sourceTree = "<group>";
+		};
+		BFD236BA285E13B900C19341 /* Smile MirrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD236BB285E13B900C19341 /* Smile_MirrorTests.swift */,
+			);
+			path = "Smile MirrorTests";
+			sourceTree = "<group>";
+		};
+		BFD236C4285E13B900C19341 /* Smile MirrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD236C5285E13B900C19341 /* Smile_MirrorUITests.swift */,
+				BFD236C7285E13B900C19341 /* Smile_MirrorUITestsLaunchTests.swift */,
+			);
+			path = "Smile MirrorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD2369D285E13B600C19341 /* Smile Mirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD236CB285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile Mirror" */;
+			buildPhases = (
+				BFD2369A285E13B600C19341 /* Sources */,
+				BFD2369B285E13B600C19341 /* Frameworks */,
+				BFD2369C285E13B600C19341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smile Mirror";
+			productName = "Smile Mirror";
+			productReference = BFD2369E285E13B600C19341 /* Smile Mirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD236B6285E13B900C19341 /* Smile MirrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD236CE285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile MirrorTests" */;
+			buildPhases = (
+				BFD236B3285E13B900C19341 /* Sources */,
+				BFD236B4285E13B900C19341 /* Frameworks */,
+				BFD236B5285E13B900C19341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD236B9285E13B900C19341 /* PBXTargetDependency */,
+			);
+			name = "Smile MirrorTests";
+			productName = "Smile MirrorTests";
+			productReference = BFD236B7285E13B900C19341 /* Smile MirrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFD236C0285E13B900C19341 /* Smile MirrorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD236D1285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile MirrorUITests" */;
+			buildPhases = (
+				BFD236BD285E13B900C19341 /* Sources */,
+				BFD236BE285E13B900C19341 /* Frameworks */,
+				BFD236BF285E13B900C19341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD236C3285E13B900C19341 /* PBXTargetDependency */,
+			);
+			name = "Smile MirrorUITests";
+			productName = "Smile MirrorUITests";
+			productReference = BFD236C1285E13B900C19341 /* Smile MirrorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD23696285E13B600C19341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BFD2369D285E13B600C19341 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BFD236B6285E13B900C19341 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BFD2369D285E13B600C19341;
+					};
+					BFD236C0285E13B900C19341 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BFD2369D285E13B600C19341;
+					};
+				};
+			};
+			buildConfigurationList = BFD23699285E13B600C19341 /* Build configuration list for PBXProject "Smile Mirror" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD23695285E13B600C19341;
+			productRefGroup = BFD2369F285E13B600C19341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD2369D285E13B600C19341 /* Smile Mirror */,
+				BFD236B6285E13B900C19341 /* Smile MirrorTests */,
+				BFD236C0285E13B900C19341 /* Smile MirrorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD2369C285E13B600C19341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD236B1285E13B800C19341 /* LaunchScreen.storyboard in Resources */,
+				BFD236AE285E13B800C19341 /* Assets.xcassets in Resources */,
+				BFD236A9285E13B600C19341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236B5285E13B900C19341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236BF285E13B900C19341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD2369A285E13B600C19341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1E8EFA28609D1200A2AD4C /* smile_detection.mlpackage in Sources */,
+				BFD236A6285E13B600C19341 /* ViewController.swift in Sources */,
+				BFD236AC285E13B600C19341 /* Smile_Mirror.xcdatamodeld in Sources */,
+				BFD236A2285E13B600C19341 /* AppDelegate.swift in Sources */,
+				BFD236A4285E13B600C19341 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236B3285E13B900C19341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD236BC285E13B900C19341 /* Smile_MirrorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD236BD285E13B900C19341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD236C8285E13B900C19341 /* Smile_MirrorUITestsLaunchTests.swift in Sources */,
+				BFD236C6285E13B900C19341 /* Smile_MirrorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD236B9285E13B900C19341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD2369D285E13B600C19341 /* Smile Mirror */;
+			targetProxy = BFD236B8285E13B900C19341 /* PBXContainerItemProxy */;
+		};
+		BFD236C3285E13B900C19341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD2369D285E13B600C19341 /* Smile Mirror */;
+			targetProxy = BFD236C2285E13B900C19341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFD236A7285E13B600C19341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD236A8285E13B600C19341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD236AF285E13B800C19341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD236B0285E13B800C19341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD236C9285E13B900C19341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD236CA285E13B900C19341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD236CC285E13B900C19341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smile Mirror/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-Mirror";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD236CD285E13B900C19341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smile Mirror/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-Mirror";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFD236CF285E13B900C19341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-MirrorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smile Mirror.app/Smile Mirror";
+			};
+			name = Debug;
+		};
+		BFD236D0285E13B900C19341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-MirrorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smile Mirror.app/Smile Mirror";
+			};
+			name = Release;
+		};
+		BFD236D2285E13B900C19341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-MirrorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smile Mirror";
+			};
+			name = Debug;
+		};
+		BFD236D3285E13B900C19341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JUUS99J8F9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.Smile-MirrorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smile Mirror";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD23699285E13B600C19341 /* Build configuration list for PBXProject "Smile Mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD236C9285E13B900C19341 /* Debug */,
+				BFD236CA285E13B900C19341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD236CB285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile Mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD236CC285E13B900C19341 /* Debug */,
+				BFD236CD285E13B900C19341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD236CE285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile MirrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD236CF285E13B900C19341 /* Debug */,
+				BFD236D0285E13B900C19341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD236D1285E13B900C19341 /* Build configuration list for PBXNativeTarget "Smile MirrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD236D2285E13B900C19341 /* Debug */,
+				BFD236D3285E13B900C19341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFD236AA285E13B600C19341 /* Smile_Mirror.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFD236AB285E13B600C19341 /* Smile_Mirror.xcdatamodel */,
+			);
+			currentVersion = BFD236AB285E13B600C19341 /* Smile_Mirror.xcdatamodel */;
+			path = Smile_Mirror.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFD23696285E13B600C19341 /* Project object */;
+}
